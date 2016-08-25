@@ -1,6 +1,5 @@
-var natural = require('natural');
 var pluralize = require('pluralize')
-var articles = require('articles/lib/Articles.js');
+var articles = require('./articles/lib/Articles.js');
 var randy = require('randy');
 var _ = require('lodash');
 
