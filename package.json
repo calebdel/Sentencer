@@ -7,9 +7,9 @@
     "test": "gulp test"
   },
   "dependencies": {
-    "lodash": "~2.4.1",
-    "natural": ">=0.4.0",
     "articles": "~0.2.1",
+    "lodash": "~2.4.1",
+    "pluralize": "^3.0.0",
     "randy": "~1.5.1"
   },
   "devDependencies": {

@@ -1,5 +1,5 @@
 var natural = require('natural');
-var nounInflector = new natural.NounInflector();
+var pluralize = require('pluralize')
 var articles = require('articles/lib/Articles.js');
 var randy = require('randy');
 var _ = require('lodash');
@@ -22,7 +22,7 @@ function Sentencer() {
       return articles.articlize( self.actions.noun() );
     },
     nouns: function() {
-      return nounInflector.pluralize( randy.choice(self._nouns) );
+      return pluralize( randy.choice(self._nouns) );
     },
     adjective: function() {
       return randy.choice(self._adjectives);
