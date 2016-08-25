@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "lodash": "~2.4.1",
-    "natural": "~0.4.1",
+    "natural": "~0.4.0",
     "articles": "~0.2.1",
     "randy": "~1.5.1"
   },
